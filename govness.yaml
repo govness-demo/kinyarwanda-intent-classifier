@@ -1,0 +1,18 @@
+# Fictional demo block: see README.md.
+schema_version: 1
+id: "rw-digital-services-bureau.kinyarwanda-intent-classifier"
+name: "Kinyarwanda intent classifier"
+type: "model"
+version: "0.5.0"
+summary: "Classifies citizen messages in Kinyarwanda into 60 public-service intents for chat and voice assistants."
+description: "A compact model for routing citizen messages, with the intent list, training data description and evaluation results."
+publisher:
+  environment: "rw-digital-services-bureau"
+  body: "Rwanda Digital Services Bureau"
+languages: ["rw", "en", "fr"]
+license: "Apache-2.0"
+interfaces:
+  protocol: "other"
+links:
+  repo: "https://github.com/govness-demo/kinyarwanda-intent-classifier"
+domains: ["citizen-engagement"]
